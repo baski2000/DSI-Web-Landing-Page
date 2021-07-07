@@ -1,0 +1,463 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .navbar .logo {
+        margin-left: 0px;
+    }
+
+    .navbar .logo img {
+        width: 119px;
+        height: 56px;
+    }
+
+    .navbar .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100vw;
+    }
+
+    .icon {
+        color: #273447;
+    }
+
+    #hero-section-row-1 img {
+        width: 349px;
+        height: 236.57px;
+        margin-top: 54px;
+    }
+
+    #hero-section-row-1 h1 {
+        margin-left: auto;
+        text-align: center;
+    }
+
+    #hero-section-row-1 p {
+        margin-left: auto;
+        text-align: center;
+    }
+
+    #hero-section-row-3 img {
+        width: 349px;
+        height: 340.54px;
+    }
+
+    #hero-section-row-4 img {
+        width: 452.94px;
+        height: 472px;
+        margin-left: 66px;
+    }
+
+
+    #hero-section-row-2 p {
+        color: #39667F;
+        font-family: OpenSans-Regular;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28.8px;
+        font-style: normal;
+        text-align: center;
+    }
+
+    #hero-section-col-2 img {
+        margin-left: 46px;
+        margin-right: 46px;
+        width: 280.46px;
+        height: 330.74px;
+    }
+
+    .ra-section_3 h1 {
+        font-family: Roboto ;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 133.69%;
+        text-align: center;
+        color: #1F2E35;
+    }
+
+    .ra-section_3 h2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 133.69%;
+        color: #EE4248;
+    }
+
+    .ra-section_3 p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 150%;
+        color: #30444E;
+    }
+
+    .ra-section_3 {
+        background-color: rgb(255, 255, 255);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 0px;
+        padding: 0 26px 26px;
+    }
+
+    .section-3 p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        font-style: normal;
+        color: rgba(0, 0, 0, 0.8);
+    }
+
+    .ra-section_4 {
+        background-color: rgb(255, 255, 255);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .ra-section_4 h3{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #263238;
+    }
+
+    .ra-section_4 p{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 149.19%;
+        color: #263238;
+        text-align: center;
+    }
+
+    .ra-section_5 {
+        background-color: #EE4248;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 70px;
+        left: 0px;
+    }
+
+    .ra-section_5 h3{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+
+    .ra-section_6 {
+        background-color: rgb(255, 255, 255);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0 22px 0 22px;
+    }
+
+    .ra-section_7 img {
+        position: absolute;
+        width: 411px;
+        height: 64px;
+        left: 0px;
+        top: 3271px;
+    }
+
+    .ra-section_6 p {
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.8);
+        text-align: center;
+        font-weight: 300;
+        font-style: normal;
+        line-height: 31.5px;
+    }
+
+    /* Service */
+    .serv-section_1 {
+        background-image: url(../img/Background001.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        width: unset;
+        height: 382px;
+        margin-top: 100px;
+    }
+
+    .serv-section_1 h1 {
+        background-image: url(../img/Background.png);
+        background-repeat: repeat-x;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 133.69%;
+        text-align: center;
+        color: #263238;
+        padding: 46px 22px 167px 30px;
+    }
+
+    .serv-section_1 h2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 133.69%;
+        color: #EE4248;
+    }
+
+    .serv-section_1 p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 150%;
+        color: #30444E;
+    }
+
+    #serv-section-row-1 img {
+        width: 362.99px;
+        height: 343px;
+        margin-top: 54px;
+    }
+
+    #serv-section-row-1 p {
+        margin-left: 6px;
+    }
+
+    .redfont2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 49px;
+        line-height: 133.69%;
+        color: #EE4248;
+      }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .navbar .logo {
+        margin-left: 50px;
+    }
+
+    .navbar.sticky {
+        height: 100px;
+    }
+
+    .navbar .content {
+        width: 100%;
+    }
+
+    .navbar .menu-list {
+        margin-right: 30%;
+    }
+
+    .menu-list li {
+        margin-right: 13px;
+    }
+    
+    #hero-section-row-1 img {
+        width: 562.97px;
+        height: 381.61px;
+        left: 562px;
+    }
+
+    #hero-section-row-3 img {
+        width: 452.94px;
+        height: 472px;
+    }
+
+    #hero-section-row-4 img {
+        width: 452.94px;
+        height: 472px;
+    }
+
+
+    #hero-section-row-2 p {
+        color: #39667F;
+        font-family: OpenSans;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 42px;
+        font-style: normal;
+        text-align: left;
+    }
+
+    .ra-section_3 {
+        background-color: rgb(255, 255, 255);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 750px;
+    }
+
+    .ra-section_3 h1 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 133.69%;
+        text-align: center;
+        color: #1F2E35;
+    }
+
+    .ra-section_3 h2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 133.69%;
+        color: #EE4248;
+    }
+
+    .ra-section_3 p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 150%;
+        color: #30444E;
+    }
+
+    .ra-section_4 h3{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #263238;
+    }
+
+    .ra-section_4 p{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 149.19%;
+        color: #263238;
+        text-align: left;
+        padding-left: 115px;
+    }
+
+    .section-3 p {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 42px;
+        font-style: normal;
+        color: rgba(0, 0, 0, 0.8);
+    }
+
+    .ra-section_5 {
+        background-color: #EE4248;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 70px;
+        left: 0px;
+    }
+
+    .ra-section_5 h3{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+
+    .ra-section_7 img {
+        position: absolute;
+        width: 1440px;
+        height: 64px;
+        left: 0px;
+        top: 2094px;
+    }
+
+    /* Service */
+    .serv-section_1 {
+        background-image: url(../img/Background001.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        width: unset;
+        height: 382px;
+        margin-top: 100px;
+    }
+
+    .serv-section_1 h1 {
+        background-image: url(../img/Background.png);
+        background-repeat: repeat-x;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 133.69%;
+        text-align: center;
+        color: #263238;
+        padding: 46px 509px 218px 477px;
+    }
+
+    .serv-section_1 h2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 133.69%;
+        color: #EE4248;
+    }
+
+    .serv-section_1 p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 150%;
+        color: #30444E;
+    }
+
+    #serv-section-row-1 img {
+        width: 567px;
+        height: 541px;
+        left: 562px;
+    }
+    
+    #serv-section-row-1 h1 {
+        margin-left: 150px;
+    }
+
+    #serv-section-row-1 p {
+        margin-left: 150px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+        #hero-section-row-1 img {
+        width: 562.97px;
+        height: 381.61px;
+        left: 400px;
+    }
+    #hero-section-row-3 img {
+        width: 505px;
+        height: 509px;
+    /* left: 400px; */
+    }
+
+    #hero-section-row-4 img {
+        width: 452.94px;
+        height: 472px;
+    }
+
+}
