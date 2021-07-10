@@ -276,6 +276,30 @@
         height: 226px;
         left: 562px;
     }
+
+    /* Technology */
+    .tech-section_1 {
+        background-image: url(../img/Background001.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        width: unset;
+        height: 382px;
+        margin-top: 100px;
+    }
+
+    .serv-section_1 h1 {
+        background-image: url(../img/Background.png);
+        background-repeat: repeat-x;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 133.69%;
+        text-align: center;
+        color: #263238;
+        padding: 46px 22px 167px 30px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -508,6 +532,29 @@
         width: 574.66px;
         height: 338px;        
         margin-top: auto;
+    }
+
+    /* Technology */
+    .tech-section_1 {
+        background-image: url(../img/Vector.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 640px;
+    }
+
+    .tech-section_1 h1 {
+        /* background-image: url(../img/Vector-1.png); */
+        background-repeat: repeat-x;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 133.69%;
+        text-align: center;
+        color: #263238;
+        padding: 46px 22px 167px 30px;
     }
 }
 
