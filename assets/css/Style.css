@@ -1,48 +1,48 @@
 @font-face {
-    font-family: OpenSans-Regular;
-    src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
-  }
-  
-  @font-face {
-    font-family: OpenSans-SemiBold;
-    src: url("../fonts/Open_Sans/OpenSans-SemiBold.ttf");
-  }
-  
-  @font-face {
-    font-family: Philosopher-Bold;
-    src: url("../fonts/Philosopher/Philosopher-Bold.ttf");
-  }
-  
-  @font-face {
-    font-family: OpenSans-Italic;
-    src: url("../fonts/Open_Sans/OpenSans-Italic.ttf");
-  }
-  
-  * {
-    font-family: OpenSans-Regular;
-  }
-  
-  .row {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(var(--bs-gutter-y) * -1);
-    margin-right: calc(var(--bs-gutter-x)/ -0);
-    margin-left: calc(var(--bs-gutter-x)/ -0);
-  }
+  font-family: OpenSans-Regular;
+  src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+}
 
-  .row-1 {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(var(--bs-gutter-y) * -1);
-    /* margin-right: calc(var(--bs-gutter-x)/ -0); */
-    /* margin-left: calc(var(--bs-gutter-x)/ -0); */
-  }
+@font-face {
+  font-family: OpenSans-SemiBold;
+  src: url("../fonts/Open_Sans/OpenSans-SemiBold.ttf");
+}
 
-  /*  */
+@font-face {
+  font-family: Philosopher-Bold;
+  src: url("../fonts/Philosopher/Philosopher-Bold.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Italic;
+  src: url("../fonts/Open_Sans/OpenSans-Italic.ttf");
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x)/ -0);
+  margin-left: calc(var(--bs-gutter-x)/ -0);
+}
+
+.row-1 {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  /* margin-right: calc(var(--bs-gutter-x)/ -0); */
+  /* margin-left: calc(var(--bs-gutter-x)/ -0); */
+}
+
+/*  */
 html,
 body {
   margin: 0 !important;
@@ -81,7 +81,7 @@ body {
 .navbar {
   position: fixed;
   width: 100%;
-  z-index: 2;
+  z-index: 5;
   padding: 25px 0;
   transition: all 0.3s ease;
 }
@@ -246,9 +246,7 @@ body {
   color: #EE4248;
 }
 
-@media only screen and (min-width: 600px) {
-
-}
+@media only screen and (min-width: 600px) {}
 
 @media only screen and (min-width: 992px) {
   .redfont2 {
@@ -261,7 +259,7 @@ body {
   }
 }
 
-.whitefont{
+.whitefont {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -270,7 +268,7 @@ body {
   color: #FFFFFF;
 }
 
-.whitefont1{
+.whitefont1 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;

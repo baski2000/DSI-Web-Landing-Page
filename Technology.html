@@ -45,29 +45,140 @@
     </section>
     <!-- Navbar End -->
 
+    <section class="tech-section_1" style="margin-top: 100px;">
+        <img class="topbg1" src="/assets/img/Vector-1.png">
+        <img class="topbg2" src="/assets/img/Vector.png">
+        <h1>
+            “Knowledge” some way of future<br>
+            <span class="whitefont2">up-to-date in latest technology</span>
+        </h1>
+        <a href="#"><button class="buttn">Learn More</button></a>
+        <img class="maclap" src="./assets/img/Macbook Pro.png">
+        <div class="row fl-jc" id="tech_icons">
+            <div class="col">
+                <img class="ic1" src="./assets/img/java.png" alt="">
+            </div>
+            <div class="col">
+                <img class="ic2" src="./assets/img/Group 1318.png" alt="">
+            </div>
+            <div class="col">
+                <img class="ic3" src="./assets/img/css_3.svg" alt="">
+            </div>
+            <div class="col">
+                <img class="ic4" src="./assets/img/html_5.png" alt="">
+            </div>
+            <div class="col">
+                <img class="ic5" src="./assets/img/microsoft.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="tech-section_2" style="margin-top: 100px;">
+        <div class="row">
+            <div class="col" id="">
+                <h1>Our Technology<br></h1>
+                <div class="row">
+                    <div class="col" id="line">
+                        <img src="./assets/img/Line 1.svg">
+                    </div>
+                </div>
+                <p>
+                    First JAVA, runs on more than 850 million personal computers worldwide,
+                    and on billions of devices worldwide, including mobile and TV devices.
+                    The latest Java version contains important enhancements to improve performance,
+                    stability and security of the Java applications that run on your machine. Installing
+                    this free update will ensure that your Java applications continue to run safely and efficiently.
+                    The best part of JAVA is free. <br><br>
+
+                    We also use PHP for general occation, why? we think you already know the reason,of course because
+                    is the most flexible language on earth that can colaborate very well with all language. <br><br>
+
+                    for the strusture is HTML & CSS ( who does not know ? ) cause it's the basic language use for the
+                    web
+                    and help us creating a very outstanding view. its become important cause it make our system looks
+                    good
+                    in front of the eyes of our client, (doesnt agree?), Hmm, let me ask you if you have a good software
+                    but
+                    with bad UI/UX, do people use it? cause for it we can reach our goals. <br><br>
+
+                    What about Microsoft technology, why not. . . We always strive to remain the best and try to keep
+                    developing
+                    what we have.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="ra-section_4 text-center">
+        <div class="row" style="margin-top: 1540px;display: flex;justify-content: center;">
+            <div class="col-lg-4" style="margin-bottom: 50px;">
+                <img src="./assets/img/Group 1317.png" alt="">
+                <h3>PT Dwidasa Samsara Indonesia</h3>
+                <p>Ruko Jalur Sutera 29A No. 53
+                    Alam Sutera Serpong, Tangerang 15323</p>
+            </div>
+            <div class="col-lg-4" style="margin-bottom: 50px;">
+                <h3>Contact </h3>
+                <p>Phone : +62.21.5314.1135 <br>
+                    Fax : +62.21.5314.1135 <br>
+                    Email : community@dwidasa.com</p>
+            </div>
+            <div class="col-lg-4" style="margin-bottom: 50px;">
+                <div class="row" style="display: flex;justify-content: center;margin-top: 20px">
+                    <div class="col">
+                        <img src="./assets/img/image 7.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/img/image 9.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/img/image 10.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/img/image 11.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/img/image 14.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/img/image 13.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--  -->
-    <script>
-        const body = document.querySelector("body");
-        const navbar = document.querySelector(".navbar");
-        const menuBtn = document.querySelector(".menu-btn");
-        const cancelBtn = document.querySelector(".cancel-btn");
-        menuBtn.onclick = () => {
-            navbar.classList.add("show");
-            menuBtn.classList.add("hide");
-            body.classList.add("disabled");
-        }
-        cancelBtn.onclick = () => {
-            body.classList.remove("disabled");
-            navbar.classList.remove("show");
-            menuBtn.classList.remove("hide");
-        }
-        window.onscroll = () => {
-            this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
-        }
-    </script>
-    </script>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./assets/js/script.js"></script>
+    <section class="ra-section_5">
+        <div class="row-1" style="margin-top: 26px;display: flex;justify-content: center;">
+            <h3>Copyright © 2015 - <span class="whitefont"> Dwidasa Samsara Indonesia</span></h3>
+        </div>
+    </section>
+</body>
+
+<!--  -->
+<script>
+    const body = document.querySelector("body");
+    const navbar = document.querySelector(".navbar");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    menuBtn.onclick = () => {
+        navbar.classList.add("show");
+        menuBtn.classList.add("hide");
+        body.classList.add("disabled");
+    }
+    cancelBtn.onclick = () => {
+        body.classList.remove("disabled");
+        navbar.classList.remove("show");
+        menuBtn.classList.remove("hide");
+    }
+    window.onscroll = () => {
+        this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+    }
+</script>
+</script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/js/script.js"></script>
 
 </html>
