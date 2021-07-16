@@ -107,6 +107,7 @@ body {
 
 .navbar .menu-list {
   display: inline-flex;
+  align-items: baseline;
 }
 
 .menu-list li {

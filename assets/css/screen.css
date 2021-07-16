@@ -551,8 +551,8 @@
     }
 
     .navbar .menu-list {
-        margin-right: 19%;
-        margin-left: 12%;
+        margin-right: 15%;
+        margin-left: 10%;
     }
 
     .menu-list li {
@@ -926,7 +926,7 @@
         position: absolute;
         width: 1119px;
         height: 325px;
-        left: 156px;
+        left: 170px;
         top: 1071px;
         font-family: Roboto;
         font-style: normal;
@@ -1015,6 +1015,28 @@
         height: 5px;
         left: 90px;
         top: 78px;
+    }
+
+    #About-section-row-2 {
+        height: 500px;
+        background: #F7F7F7;
+    }
+
+    #About-section-row-1 img {
+        position: absolute;
+        width: 419px;
+        height: 182px;
+        top: 160px;
+    }
+
+    #About-section-row-1 h1 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 140.69%;
+        color: #30444E;
+        margin-left: 75px;
     }
 
 }
