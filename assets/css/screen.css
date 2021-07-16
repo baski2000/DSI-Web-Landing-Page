@@ -456,6 +456,77 @@
         left: 15px;
         top: 740px;
     }
+
+    /* About */
+    #About-section-row-1 img {
+        width: 300px;
+        height: 130px;
+        margin-top: 54px;
+    }
+
+    #About-section-row-1 h1 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 133.69%;
+        color: #30444E;
+        margin-left: 8px;
+        text-align: center;
+    }
+
+    .Darkh1 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 133.69%;
+        color: #30444E;
+    }
+
+    .about-section_2 {
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 640px;
+    }
+
+    .about-section_2 h1 {
+        position: absolute;
+        width: 377.17px;
+        height: 73.85px;
+        left: 25px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 140.69%;
+        color: #263238;
+    }
+
+    .about-section_2 p {
+        position: absolute;
+        width: 357px;
+        height: 808.83px;
+        left: 25px;
+        top: 140px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 140.69%;      
+        text-align: justify;
+        color: #263238;
+    }
+
+    #lineabt {
+        position: absolute;
+        width: 88px;
+        height: 8.12px;
+        left: 15px;
+        top: 96px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -873,6 +944,79 @@
         left: 160px;
         top: 1039px;
     }
+
+    /* About */
+    #About-section-row-1 img {
+        position: absolute;
+        width: 419px;
+        height: 182px;
+        top: 160px;
+    }
+
+    #About-section-row-1 h1 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 140.69%;
+        color: #30444E;
+        margin-left: 75px;
+    }
+
+    .Darkh1 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 140.69%;
+        color: #30444E;
+    }
+
+    .about-section_2 {
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 640px;
+    }
+
+    .about-section_2 h1 {
+        position: absolute;
+        width: 579px;
+        height: 45px;
+        left: 100px;
+        top: 26px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 140.69%;
+        color: #263238;
+    }
+
+    .about-section_2 p {
+        position: absolute;
+        width: 1156px;
+        height: 325px;
+        left: 100px;
+        top: 125px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 140.69%;
+        text-align: justify;
+        color: #30444E;
+    }
+
+    #lineabt {
+        position: absolute;
+        width: 88px;
+        height: 5px;
+        left: 90px;
+        top: 78px;
+    }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
